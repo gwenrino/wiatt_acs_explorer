@@ -53,12 +53,12 @@ body <- dashboardBody(
             fluidRow(
               box(
                 h4("2020 ACS Variables: Sex by Age"),
-                p("B01001_003, B01001_004, B01001_005, B01001_006, B01001_007, B01001_008, B01001_009, B01001_010, 
-                B01001_011, B01001_012, B01001_013, B01001_014, B01001_015, B01001_016, B01001_017, B01001_018, B01001_019, B01001_020,
-                B01001_021, B01001_022, B01001_023, B01001_024, B01001_025,
-                B01001_027, B01001_028, B01001_029, B01001_030,
-                B01001_031, B01001_032, B01001_033, B01001_034, B01001_035, B01001_036, B01001_037, B01001_038, B01001_039, B01001_040,
-                B01001_041, B01001_042, B01001_043, B01001_044, B01001_045, B01001_046, B01001_047, B01001_048, B01001_049"),
+                p("Table B01001. 
+                Variables 003, 004, 005, 006, 007, 008, 009, 
+                010, 011, 012, 013, 014, 015, 016, 017, 018, 019, 
+                020, 021, 022, 023, 024, 025, 027, 028, 029,
+                030, 031, 032, 033, 034, 035, 036, 037, 038, 039,
+                040, 041, 042, 043, 044, 045, 046, 047, 048, 049"),
                 p("Variables collapsed and rebucketed to 'Age Under 18', 'Age 18 to 24', 'Age 25 to 44', 'Age 45 to 64', 'Age 65 and Over.'"),
                 strong("Total = All Individuals"),
                 width = 12
@@ -89,7 +89,7 @@ body <- dashboardBody(
             fluidRow(
               box(
                 h4("2020 ACS Variables: Sex by Age"),
-                p("B01001_002, B01001_026"),
+                p("Table B01001. Variables 002, 026"),
                 strong("Total = All Individuals"),
                 width = 12
               )
@@ -119,9 +119,9 @@ body <- dashboardBody(
             fluidRow(
               box(
                 h4("2020 ACS Variables: Hispanic or Latino Origin by Race"),
-                p("B03002_003 (White not Hispanic), B03002_004 (Black not Hispanic), B03002_005 (AIAN not Hispanic), 
-                  B03002_006 (Asian not Hispanic), B03002_007 (NHOPI not Hispanic), B03002_008 (Other race not Hispanic), 
-                  B03002_009 (Two or more races not Hispanic), B03002_012 (Hispanic/Latino any race)"),
+                p("Table B03002. Variables 003 (White not Hispanic), 004 (Black not Hispanic), 005 (AIAN not Hispanic), 
+                  006 (Asian not Hispanic), 007 (NHOPI not Hispanic), 008 (Other race not Hispanic), 
+                  009 (Two or more races not Hispanic), 012 (Hispanic/Latino any race)"),
                 strong("Total = All Individuals"),
                 width = 12
               )
@@ -151,12 +151,12 @@ body <- dashboardBody(
             fluidRow(
               box(
                 h4("2020 ACS Variables: Language Spoken at Home for the Population 5 Years and Over"),
-                p("C16001_002 (English only), C16001_003 (Spanish), C16001_006 (French, Haitian, Cajun),
-                  C16001_009 (German or other West Germanic Language), C16001_012 (Russian, Polish, other Slavic Language),
-                  C16001_015 (Other Indo-European Language), C16001_018 (Korean), C16001_021 (Chinese, including Mandarin, Cantonese),
-                  C16001_024 (Vietnamese), C16001_027 (Tagalog), C16001_030 (Other Asian/Pacific Island Language),
-                  C16001_033 (Arabic), C16001_036 (Other or Unspecified Language)"),
-                p("Variables C16001_009, C16001_012, and C16001_015 bucketed together as 'Other European'."),
+                p("Table C16001. Variables 002 (English only), 003 (Spanish), 006 (French, Haitian, Cajun),
+                  009 (German or other West Germanic Language), 012 (Russian, Polish, other Slavic Language),
+                  015 (Other Indo-European Language), 018 (Korean), 021 (Chinese, including Mandarin, Cantonese),
+                  024 (Vietnamese), 027 (Tagalog), 030 (Other Asian/Pacific Island Language),
+                  033 (Arabic), 036 (Other or Unspecified Language)"),
+                p("Variables 009, 012, and 015 bucketed together as 'Other European'."),
                 strong("Total = Individuals Age 5 Years and Over"),
                 width = 12
               )
@@ -186,8 +186,8 @@ body <- dashboardBody(
             fluidRow(
               box(
                 h4("2020 ACS Variables: Household Income in the Past 12 Months (in 2020 Inflation-Adjusted Dollars)"),
-                p("B19001_002, B19001_003, B19001_004, B19001_005, B19001_006, B19001_007, B19001_008, B19001_009,
-                  B19001_010, B19001_011, B19001_012, B19001_013, B19001_014, B19001_015, B19001_016, B19001_017"),
+                p("Table B19001. Variables 002, 003, 004, 005, 006, 007, 008, 009,
+                  010, 011, 012, 013, 014, 015, 016, 017"),
                 p("Variables collapsed and rebucketed to 'Less than 25K', '25K to 50K', '50K to 100K', 'Over 100K'."),
                 strong("Total = All Households"),
                 width = 12
@@ -218,7 +218,7 @@ body <- dashboardBody(
             fluidRow(
               box(
                 h4("2020 ACS Variables: Households by Presence of People Under 18 Years of Age by Household Type"),
-                p("B11005_002, B11005_011"),
+                p("Table B11005. Variables 002, 011"),
                 strong("Total = All Households"),
                 width = 12
               )
@@ -248,9 +248,9 @@ body <- dashboardBody(
             fluidRow(
               box(
                 h4("2020 ACS Variables: Educational Attainment for the Population 25 Years and Over"),
-                p("B15003_002, B15003_003, B15003_004, B15003_005, B15003_006, B15003_007, B15003_008, B15003_009, B15003_010,
-                  B15003_0011, B15003_012, B15003_013, B15003_014, B15003_015, B15003_016, B15003_017, B15003_018, B15003_019, B15003_020,
-                  B15003_021, B15003_022, B15003_023, B15003_024, B15003_025"),
+                p("Table B15003. Variables 002, 003, 004, 005, 006, 007, 008, 009, 010,
+                  011, 012, 013, 014, 015, 016, 017, 018, 019, 020,
+                  021, 022, 023, 024, 025"),
                 p("Variables collapsed and rebucketed to 'Did Not Complete High School', 'Graduated High School', 'College with or without Degree', 'Advanced Degree'."),
                 strong("Total = Individuals Age 25 and Over"),
                 width = 12
@@ -281,8 +281,8 @@ body <- dashboardBody(
             fluidRow(
               box(
                 h4("2020 ACS Variables: Sex by Age by Disability Status"),
-                p("B18101_010, B18101_011, B18101_013, B18101_014, B18101_016, B18101_017, B18101_019, B18101_020,
-                  B18101_029, B18101_030, B18101_032, B18101_033, B18101_035, B18101_036, B18101_038, B18101_039"),
+                p("Table B18101. Variables 010, 011, 013, 014, 016, 017, 019, 020,
+                  029, 030, 032, 033, 035, 036, 038, 039"),
                 p("Variables collapsed and rebucketed to 'Has Disability', 'No Disability'."),
                 strong("Total = Individuals Age 18 and Over"),
                 width = 12
@@ -314,8 +314,8 @@ body <- dashboardBody(
             fluidRow(
               box(
                 h4("2020 ACS Variables: Sex by Age by Hearing Difficulty"),
-                p("B18102_010, B18102_011, B18102_013, B18102_014, B18102_016, B18102_017, B18102_019, B18102_020,
-                  B18102_029, B18102_030, B18102_032, B18102_033, B18102_035, B18102_036, B18102_038, B18102_039"),
+                p("Table B18102. Variables 010, 011, 013, 014, 016, 017, 019, 020,
+                  029, 030, 032, 033, 035, 036, 038, 039"),
                 p("Variables collapsed and rebucketed to 'Has Hearing Difficulty', 'No Hearing Difficulty'."),
                 strong("Total = Individuals Age 18 and Over"),
                 width = 12
@@ -337,8 +337,8 @@ body <- dashboardBody(
             fluidRow(
               box(
                 h4("2020 ACS Variables: Sex by Age by Vision Difficulty"),
-                p("B18103_010, B18103_011, B18103_013, B18103_014, B18103_016, B18103_017, B18103_019, B18103_020,
-                  B18103_029, B18103_030, B18103_032, B18103_033, B18103_035, B18103_036, B18103_038, B18103_039"),
+                p("Table B18103. 010, 011, 013, 014, 016, 017, 019, 020,
+                  029, 030, 032, 033, 035, 036, 038, 039"),
                 p("Variables collapsed and rebucketed to 'Has Vision Difficulty', 'No Vision Difficulty'."),
                 strong("Total = Individuals Age 18 and Over"),
                 width = 12
@@ -360,8 +360,8 @@ body <- dashboardBody(
             fluidRow(
               box(
                 h4("2020 ACS Variables: Sex by Age by Cognitive Difficulty"),
-                p("B18104_007, B18104_008, B18104_010, B18104_011, B18104_013, B18104_014, B18104_016, B18104_017,
-                  B18104_023, B18104_024, B18104_026, B18104_027, B18104_029, B18104_030, B18104_032, B18104_033"),
+                p("Table B18104. Variables 007, 008, 010, 011, 013, 014, 016, 017,
+                  023, 024, 026, 027, 029, 030, 032, 033"),
                 p("Variables collapsed and rebucketed to 'Has Cognitive Difficulty', 'No Cognitive Difficulty'."),
                 strong("Total = Individuals Age 18 and Over"),
                 width = 12
@@ -383,8 +383,8 @@ body <- dashboardBody(
             fluidRow(
               box(
                 h4("2020 ACS Variables: Sex by Age by Ambulatory Difficulty"),
-                p("B18105_007, B18105_008, B18105_010, B18105_011, B18105_013, B18105_014, B18105_016, B18105_017,
-                  B18105_023, B18105_024, B18105_026, B18105_027, B18105_029, B18105_030, B18105_032, B18105_033"),
+                p("Table B18105. Variables 007, 008, 010, 011, 013, 014, 016, 017,
+                  023, 024, 026, 027, 029, 030, 032, 033"),
                 p("Variables collapsed and rebucketed to 'Has Ambulatory Difficulty', 'No Ambulatory Difficulty'."),
                 strong("Total = Individuals Age 18 and Over"),
                 width = 12
@@ -406,8 +406,8 @@ body <- dashboardBody(
             fluidRow(
               box(
                 h4("2020 ACS Variables: Sex by Age by Self Care Difficulty"),
-                p("B18106_007, B18106_008, B18106_010, B18106_011, B18106_013, B18106_014, B18106_016, B18106_017,
-                  B18106_023, B18106_024, B18106_026, B18106_027, B18106_029, B18106_030, B18106_032, B18106_033"),
+                p("Table B18106. Variables 007, 008, 010, 011, 013, 014, 016, 017,
+                  023, 024, 026, 027, 029, 030, 032, 033"),
                 p("Variables collapsed and rebucketed to 'Has Self Care Difficulty', 'No Self Care Difficulty'."),
                 strong("Total = Individuals Age 18 and Over"),
                 width = 12
@@ -429,8 +429,8 @@ body <- dashboardBody(
             fluidRow(
               box(
                 h4("2020 ACS Variables: Sex by Age by Independent Living Difficulty"),
-                p("B18107_004, B18107_005, B18107_007, B18107_008, B18107_010, B18107_011, B18107_013, B18107_014,
-                  B18107_017, B18107_018, B18107_020, B18107_021, B18107_023, B18107_024, B18107_026, B18107_027"),
+                p("Table B18107. Variables 004, 005, 007, 008, 010, 011, 013, 014,
+                  017, 018, 020, 021, 023, 024, 026, 027"),
                 p("Variables collapsed and rebucketed to 'Has Independent Living Difficulty', 'No Independent Living Difficulty'."),
                 strong("Total = Individuals Age 18 and Over"),
                 width = 12
@@ -461,7 +461,7 @@ body <- dashboardBody(
             fluidRow(
               box(
                 h4("2020 ACS Variables: Sex by Age by Veteran Status for the Civilian Population 18 Years and Over"),
-                p("B21001_002, B21001_003"),
+                p("Table B21001. Variables 002, 003"),
                 strong("Total = Civilians Age 18 and Over"),
                 width = 12
               )
@@ -491,7 +491,7 @@ body <- dashboardBody(
             fluidRow(
               box(
                 h4("2020 ACS Variables: Presence and Types of Internet Subscriptions in Household"),
-                p("B28002_002 (has internet subscription), B28002_012 (has internet without subscription), B28002_013 (no internet access)"),
+                p("Table B28002. Variables 002 (has internet subscription), 012 (has internet without subscription), 013 (no internet access)"),
                 p("Variables collapsed and rebucketed to 'Has Internet Access', 'No Internet Access'."),
                 strong("Total = All Households"),
                 width = 12
@@ -619,7 +619,12 @@ server <- function(input, output) {
   # Summarize data (to be pulled on final tab)
   create_age_summary <- reactive({
     req(process_age_data())
+    
     age_data_summary <- summarize_tract_data(process_age_data())
+    
+    age_data_summary <- age_data_summary %>% 
+      mutate(Category = "Age")
+    
   })
 
   # Output age plot
@@ -627,7 +632,7 @@ server <- function(input, output) {
     req(create_age_summary())
 
     age_data_to_graph <- create_age_summary() %>%
-      select(Variable, `Tract Total`, Percent) %>%
+      select(Variable, `Tract Total`, Portion) %>%
       rename(age = Variable)
 
     age_data_to_graph$age <- str_sub(age_data_to_graph$age, 5, -1)
@@ -640,9 +645,9 @@ server <- function(input, output) {
                                                "65_and_over"))
 
     ggplot(data = age_data_to_graph,
-                        aes(x = age, y = Percent)) +
+                        aes(x = age, y = Portion)) +
       geom_bar(stat = "identity", fill = "mediumblue") +
-      geom_text(aes(label = scales::percent(Percent), y = Percent), vjust = 2.0, color = "white") + 
+      geom_text(aes(label = scales::percent(Portion), y = Portion), vjust = 2.0, color = "white") + 
       scale_y_continuous(labels = scales::percent) +
       labs(x = "",
            y = "Percent of Individuals in Region") +
@@ -699,7 +704,11 @@ server <- function(input, output) {
   # Summarize data (to be pulled on final tab)
   create_sex_summary <- reactive({
     req(process_sex_data())
+    
     sex_data_summary <- summarize_tract_data(process_sex_data())
+    
+    sex_data_summary <- sex_data_summary %>%
+      mutate(Category = "Sex")
   })
 
   # Output sex plot
@@ -707,13 +716,13 @@ server <- function(input, output) {
     req(create_sex_summary())
 
     sex_data_to_graph <- create_sex_summary() %>%
-      select(Variable, `Tract Total`, Percent) %>%
+      select(Variable, `Tract Total`, Portion) %>%
       rename(sex = Variable)
 
     ggplot(data = sex_data_to_graph,
-           aes(x = sex, y = Percent)) +
+           aes(x = sex, y = Portion)) +
       geom_bar(stat = "identity", fill = "mediumblue") +
-      geom_text(aes(label = scales::percent(Percent), y = Percent), vjust = 2.0, color = "white") + 
+      geom_text(aes(label = scales::percent(Portion), y = Portion), vjust = 2.0, color = "white") + 
       scale_y_continuous(labels = scales::percent) +
       labs(x = "",
            y = "Percent of Individuals in Region") +
@@ -770,7 +779,11 @@ server <- function(input, output) {
   # Summarize data (to be pulled on final tab)
   create_race_ethnicity_summary <- reactive({
     req(process_race_ethnicity_data())
+    
     race_ethnicity_data_summary <- summarize_tract_data(process_race_ethnicity_data())
+    
+    race_ethnicity_data_summary <- race_ethnicity_data_summary %>%
+      mutate(Category = "Race/Ethnicity")
   })
   
   # Output race_ethnicity plot
@@ -778,13 +791,13 @@ server <- function(input, output) {
     req(create_race_ethnicity_summary())
     
     race_ethnicity_data_to_graph <- create_race_ethnicity_summary() %>%
-      select(Variable, `Tract Total`, Percent) %>%
+      select(Variable, `Tract Total`, Portion) %>%
       rename(race_ethnicity = Variable)
     
     ggplot(data = race_ethnicity_data_to_graph,
-           aes(x = reorder(race_ethnicity, Percent), y = Percent)) +
+           aes(x = reorder(race_ethnicity, Portion), y = Portion)) +
       geom_bar(stat = "identity", fill = "mediumblue") +
-      geom_text(aes(label = scales::percent(Percent), y = Percent), vjust = 2.0, color = "white") + 
+      geom_text(aes(label = scales::percent(Portion), y = Portion), vjust = 2.0, color = "white") + 
       scale_y_continuous(labels = scales::percent) +
       labs(x = "",
            y = "Percent of Individuals in Region") +
@@ -847,7 +860,11 @@ server <- function(input, output) {
   # Summarize data (to be pulled on final tab)
   create_language_summary <- reactive({
     req(process_language_data())
+    
     language_data_summary <- summarize_tract_data(process_language_data())
+    
+    language_data_summary <- language_data_summary %>%
+      mutate(Category = "Home Language")
   })
   
   # Output language plot
@@ -855,13 +872,13 @@ server <- function(input, output) {
     req(create_language_summary())
     
     language_data_to_graph <- create_language_summary() %>%
-      select(Variable, `Tract Total`, Percent) %>%
+      select(Variable, `Tract Total`, Portion) %>%
       rename(language = Variable)
     
     ggplot(data = language_data_to_graph,
-           aes(x = reorder(language, Percent), y = Percent)) +
+           aes(x = reorder(language, Portion), y = Portion)) +
       geom_bar(stat = "identity", fill = "mediumblue") +
-      geom_text(aes(label = scales::percent(Percent), y = Percent), vjust = 2.0, color = "white") + 
+      geom_text(aes(label = scales::percent(Portion), y = Portion), vjust = 2.0, color = "white") + 
       scale_y_continuous(labels = scales::percent) +
       labs(x = "",
            y = "Percent of Individuals over Age 5 in Region") +
@@ -926,7 +943,11 @@ server <- function(input, output) {
   # Summarize data (to be pulled on final tab)
   create_income_summary <- reactive({
     req(process_income_data())
+    
     income_data_summary <- summarize_tract_data(process_income_data())
+    
+    income_data_summary <- income_data_summary %>%
+      mutate(Category = "Household Income")
   })
   
   # Output income plot
@@ -934,7 +955,7 @@ server <- function(input, output) {
     req(create_income_summary())
     
     income_data_to_graph <- create_income_summary() %>%
-      select(Variable, `Tract Total`, Percent) %>%
+      select(Variable, `Tract Total`, Portion) %>%
       rename(income = Variable)
     
     income_data_to_graph$income <- str_sub(income_data_to_graph$income, 8, -1)
@@ -946,9 +967,9 @@ server <- function(input, output) {
                                                      "over_100k"))
 
     ggplot(data = income_data_to_graph,
-           aes(x = income, y = Percent)) +
+           aes(x = income, y = Portion)) +
       geom_bar(stat = "identity", fill = "mediumblue") +
-      geom_text(aes(label = scales::percent(Percent), y = Percent), vjust = 2.0, color = "white") + 
+      geom_text(aes(label = scales::percent(Portion), y = Portion), vjust = 2.0, color = "white") + 
       scale_y_continuous(labels = scales::percent) +
       labs(x = "",
            y = "Percent of Households in Region") +
@@ -1005,7 +1026,11 @@ server <- function(input, output) {
   # Summarize data (to be pulled on final tab)
   create_hh_w_children_summary <- reactive({
     req(process_hh_w_children_data())
+    
     hh_w_children_data_summary <- summarize_tract_data(process_hh_w_children_data())
+    
+    hh_w_children_data_summary <- hh_w_children_data_summary %>%
+      mutate(Category = "Households with Children")
   })
   
   # Output hh_w_children plot
@@ -1013,13 +1038,13 @@ server <- function(input, output) {
     req(create_hh_w_children_summary())
     
     hh_w_children_data_to_graph <- create_hh_w_children_summary() %>%
-      select(Variable, `Tract Total`, Percent) %>%
+      select(Variable, `Tract Total`, Portion) %>%
       rename(hh_w_children = Variable)
     
     ggplot(data = hh_w_children_data_to_graph,
-           aes(x = hh_w_children, y = Percent)) +
+           aes(x = hh_w_children, y = Portion)) +
       geom_bar(stat = "identity", fill = "mediumblue") +
-      geom_text(aes(label = scales::percent(Percent), y = Percent), vjust = 2.0, color = "white") + 
+      geom_text(aes(label = scales::percent(Portion), y = Portion), vjust = 2.0, color = "white") + 
       scale_y_continuous(labels = scales::percent) +
       labs(x = "",
            y = "Percent of Households in Region") +
@@ -1085,7 +1110,11 @@ server <- function(input, output) {
   # Summarize data (to be pulled on final tab)
   create_education_summary <- reactive({
     req(process_education_data())
+    
     education_data_summary <- summarize_tract_data(process_education_data())
+    
+    education_data_summary <- education_data_summary %>%
+      mutate(Category = "Education Level")
   })
   
   # Output education plot
@@ -1093,7 +1122,7 @@ server <- function(input, output) {
     req(create_education_summary())
     
     education_data_to_graph <- create_education_summary() %>%
-      select(Variable, `Tract Total`, Percent) %>%
+      select(Variable, `Tract Total`, Portion) %>%
       rename(education = Variable)
     
     education_data_to_graph$education <- factor(education_data_to_graph$education, 
@@ -1103,9 +1132,9 @@ server <- function(input, output) {
                                                             "graduate_or_prof_degree"))
     
     ggplot(data = education_data_to_graph,
-           aes(x = education, y = Percent)) +
+           aes(x = education, y = Portion)) +
       geom_bar(stat = "identity", fill = "mediumblue") +
-      geom_text(aes(label = scales::percent(Percent), y = Percent), vjust = 2.0, color = "white") + 
+      geom_text(aes(label = scales::percent(Portion), y = Portion), vjust = 2.0, color = "white") + 
       scale_y_continuous(labels = scales::percent) +
       labs(x = "",
            y = "Percent of Individuals over Age 25 in Region") +
@@ -1168,7 +1197,11 @@ server <- function(input, output) {
 # Summarize data (to be pulled on final tab)
   create_disability_status_summary <- reactive({
     req(process_disability_status_data())
+    
     disability_status_data_summary <- summarize_tract_data(process_disability_status_data())
+    
+    disability_status_data_summary <- disability_status_data_summary %>%
+      mutate(Category = "Disability Status")
   })
 
   # Output disability_status plot
@@ -1176,13 +1209,13 @@ server <- function(input, output) {
     req(create_disability_status_summary())
   
     disability_status_data_to_graph <- create_disability_status_summary() %>%
-      select(Variable, `Tract Total`, Percent) %>%
+      select(Variable, `Tract Total`, Portion) %>%
       rename(disability_status = Variable)
   
     ggplot(data = disability_status_data_to_graph,
-           aes(x = disability_status, y = Percent)) +
+           aes(x = disability_status, y = Portion)) +
       geom_bar(stat = "identity", fill = "mediumblue") +
-      geom_text(aes(label = scales::percent(Percent), y = Percent), vjust = 2.0, color = "white") + 
+      geom_text(aes(label = scales::percent(Portion), y = Portion), vjust = 2.0, color = "white") + 
       scale_y_continuous(labels = scales::percent) +
       labs(x = "",
            y = "Percent of Individuals over Age 18 in Region") +
@@ -1553,6 +1586,9 @@ server <- function(input, output) {
     # Filter out the counts of those without disabilities
     disability_type_summary <- disability_type_summary[grep('^has_', disability_type_summary$Variable),]
     
+    disability_type_summary <- disability_type_summary %>%
+      mutate(Category = "Disability Type")
+    
   })
   
   # Output disability_type plot
@@ -1560,13 +1596,13 @@ server <- function(input, output) {
     req(create_disability_type_summary())
     
     disability_type_data_to_graph <- create_disability_type_summary() %>%
-      select(Variable, `Tract Total`, Percent) %>%
+      select(Variable, `Tract Total`, Portion) %>%
       rename(disability_type = Variable)
     
     ggplot(data = disability_type_data_to_graph,
-           aes(x = reorder(disability_type, Percent), y = Percent)) +
+           aes(x = reorder(disability_type, Portion), y = Portion)) +
       geom_bar(stat = "identity", fill = "mediumblue") +
-      geom_text(aes(label = scales::percent(Percent), y = Percent), vjust = 2.0, color = "white") + 
+      geom_text(aes(label = scales::percent(Portion), y = Portion), vjust = 2.0, color = "white") + 
       scale_y_continuous(labels = scales::percent) +
       labs(x = "",
            y = "Percent of Individuals over Age 18 in Region") +
@@ -1623,7 +1659,11 @@ server <- function(input, output) {
   # Summarize data (to be pulled on final tab)
   create_veteran_summary <- reactive({
     req(process_veteran_data())
+    
     veteran_data_summary <- summarize_tract_data(process_veteran_data())
+    
+    veteran_data_summary <- veteran_data_summary %>%
+      mutate(Category = "Veteran Status")
   })
   
   # Output veteran plot
@@ -1631,13 +1671,13 @@ server <- function(input, output) {
     req(create_veteran_summary())
     
     veteran_data_to_graph <- create_veteran_summary() %>%
-      select(Variable, `Tract Total`, Percent) %>%
+      select(Variable, `Tract Total`, Portion) %>%
       rename(veteran = Variable)
     
     ggplot(data = veteran_data_to_graph,
-           aes(x = veteran, y = Percent)) +
+           aes(x = veteran, y = Portion)) +
       geom_bar(stat = "identity", fill = "mediumblue") +
-      geom_text(aes(label = scales::percent(Percent), y = Percent), vjust = 2.0, color = "white") + 
+      geom_text(aes(label = scales::percent(Portion), y = Portion), vjust = 2.0, color = "white") + 
       scale_y_continuous(labels = scales::percent) +
       labs(x = "",
            y = "Percent of Civilians over Age 18 in Region") +
@@ -1699,7 +1739,11 @@ server <- function(input, output) {
   # Summarize data (to be pulled on final tab)
   create_internet_summary <- reactive({
     req(process_internet_data())
+    
     internet_data_summary <- summarize_tract_data(process_internet_data())
+    
+    internet_data_summary <- internet_data_summary %>%
+      mutate(Category = "Household Internet Access")
   })
   
   # Output internet plot
@@ -1707,13 +1751,13 @@ server <- function(input, output) {
     req(create_internet_summary())
     
     internet_data_to_graph <- create_internet_summary() %>%
-      select(Variable, `Tract Total`, Percent) %>%
+      select(Variable, `Tract Total`, Portion) %>%
       rename(internet = Variable)
     
     ggplot(data = internet_data_to_graph,
-           aes(x = internet, y = Percent)) +
+           aes(x = internet, y = Portion)) +
       geom_bar(stat = "identity", fill = "mediumblue") +
-      geom_text(aes(label = scales::percent(Percent), y = Percent), vjust = 2.0, color = "white") + 
+      geom_text(aes(label = scales::percent(Portion), y = Portion), vjust = 2.0, color = "white") + 
       scale_y_continuous(labels = scales::percent) +
       labs(x = "",
            y = "Percent of Households in Region") +
@@ -1753,7 +1797,7 @@ server <- function(input, output) {
     num_columns <- ncol(demographic_summary)
     
     demographic_summary <- demographic_summary %>% 
-      select(1, all_of(num_columns - 2):all_of(num_columns), 2:all_of(num_columns - 3))
+      select(all_of(num_columns), 1, all_of(num_columns - 3), all_of(num_columns - 2), all_of(num_columns - 1), 2:all_of(num_columns - 4))
 
   })
   
