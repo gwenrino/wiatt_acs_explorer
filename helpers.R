@@ -3,7 +3,7 @@ library(tidycensus)
 library(tidyverse)
 library(rsconnect)
 
-census_api_key("INSERT KEY HERE")
+census_api_key("API KEY HERE")
 
 ## Function to process pulled data
 process_acs_pull <- function(input_df) {
@@ -41,7 +41,7 @@ summarize_tract_data <- function(input_df) {
   output_df <- output_df %>% 
     mutate(`Tract Total` = rowSums(select(., starts_with("Census"))),
            `Area Total` = sum(`Tract Total`),
-           Percent = round(`Tract Total`/`Area Total`,3))
+           Portion = round(`Tract Total`/`Area Total`,3))
 
   return(output_df)
 }
